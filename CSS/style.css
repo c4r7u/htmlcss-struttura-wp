@@ -28,8 +28,12 @@
 }
 
 main {
-    margin-top: 20px;
     background-color: blue;
+    margin: 20px 0;
+}
+.main-top {
+    height: 70px;
+    background-color: #abcfe6;
 }
 
 .col {
@@ -43,25 +47,28 @@ main {
     background-color: #abcfe7;
     margin-bottom: 20px;
 }
-.col-left {
-    width: 25%;
-    height: 500px;
-    background-color: #abcfe7;
-    margin-right: 10px;
-}
 
-.col-centre {
-    width: 48%;
-    height: 500px;
-    background-color: #abcfe7;
+.main-bottom {
+    margin: 20px 0;
 }
 
 
+.col-left,
+.col-center,
 .col-right {
-    width: 25%;
-    height: 500px;
-    background-color: #abcfe7;
-    margin-left: 11px;
+    background-color: #abcfe6;
+    height: 600px;
+}
+
+.col-center {
+    width: 50%;
+    margin: 0 2%;
+}
+
+
+.col-left,
+.col-right {
+    width: 23%;
 }
 
 footer {
